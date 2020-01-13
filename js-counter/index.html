@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href = "style.css" rel = "stylesheet" type = "text/css">
+
+</head>
+<body>
+
+	<h1>A Simple Counter</h1>
+	<p>COUNTER:</p>
+
+	<input type="number" id="extra" placeholder="Enter a number">
+	<p> <a id="counter" style="border-style: groove;">10</a></p>
+
+	<button type = "button" onclick="increase()" class="btn1">Increase</button>
+	<button type = "button" onclick="decrease()" class="btn2">Decrease</button>
+
+	<script type="text/javascript">
+		var counter = 10;
+		var inputval = 1;
+		document.getElementById("extra").addEventListener("change", handlechange);
+
+		function handlechange(){
+			inputval=document.getElementById("extra").value;
+		}
+
+		function increase() {
+			counter += parseInt(inputval);
+			document.getElementById("counter").innerHTML = counter;
+		}
+
+		function decrease(){
+			counter -= parseInt(inputval);
+			document.getElementById("counter").innerHTML = counter;
+		};
+	</script>
+	
+</body>
+</html>

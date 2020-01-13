@@ -1,0 +1,64 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	text-align: center;
+	margin-top: 10%;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(cold_leaves.jpg);
+	background-size: 100% 780px;
+	
+}
+
+h1
+{
+	margin-bottom: 5%;
+	font-size: 380%;
+	font-family: "courier";
+	color: antiquewhite;
+	border-bottom: solid;
+}
+
+p
+{
+	margin-bottom: 2%;
+	font-size: 200%;
+	color: antiquewhite;
+}
+
+input 
+{
+	width: 10%;
+	padding: 10px 0;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid white;
+	outline: none;
+	background-color: lightblue;
+}
+
+button
+{
+	border: none;
+	outline: none;
+	font-size: 120%;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.btn2
+{
+	margin-left: 3%;
+}
+
+button:hover
+{
+	background-color: #306754;
+	color: antiquewhite;
+}
